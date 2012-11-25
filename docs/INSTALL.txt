@@ -1,0 +1,58 @@
+## Installation guide
+
+# For Debian systems:
+
+sudo apt-get install python-dev gcc make --no-install-recommends
+
+
+# clone repo
+
+git clone https://bubenkoff@bitbucket.org/bubenkoff/jobinator.git
+
+cd jobinator
+
+# Install buildout
+
+python bootstrap.py -c <development.cfg|production.cfg>
+
+
+# Install all dependencies
+
+bin/buildout -c <development.cfg|production.cfg>
+
+# Set up system smtp server or just start debugging one:
+
+python -m smtpd -n -c DebuggingServer localhost:25
+
+# Fix the default python encoding
+
+$ vim parts/buildout/site.py
+
+# replace if 0: -> if 1:
+
+# Run tests with coverage
+
+bin/nosetests
+
+# Run pep8 checks
+
+bin/pep8 src
+
+# Run server
+
+bin/pserve --reload <development.ini|production.init>
+e.g.
+bin/pserve --reload development.ini
+
+Server is accessible via:
+
+http://localhost:6543/
+
+#Deploy using mod_wsgi
+
+use bin/app.wsgi script as generic wsgi script for mod_wsgi
+
+you should also publish static resources as /static from src/jobinator/static
+
+run uWSGI:
+./bin/uwsgi --xml parts/uwsgi/uwsgi.xml

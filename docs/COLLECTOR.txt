@@ -1,0 +1,29 @@
+Sites
+=====
+
+* work.ua +
+* it.rabota.ua - ?
+* hh.ua +
+* jobs.dou.ua ?
+* jooble.com.ua -
+* linkedin.com
+* job.ukr.net +
+* moikrug.ru
+
+
+Usage
+=====
+From project root:
+$ cd collector
+$ ./bin/scrapy crawl workua
+
+You will get scraped_data.json file with results
+
+
+Scrapy info
+===========
+
+items.py содержит классы, которые перечисляют поля собираемых данных,
+pipelines.py позволяет задать определенные действия при открытии/закрытии паука, сохранения данных,
+settings.py содержит пользовательские настройки паука,
+spiders — папка, в которой хранятся файлы с классами пауков. Каждого паука принято писать в отдельном файле с именем name_spider.py

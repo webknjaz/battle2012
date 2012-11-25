@@ -1,0 +1,344 @@
+/* base config */
+*{
+    padding:0;
+    margin:0;
+}
+
+body, p, td, th, div{
+    font-family: Trebuchet MS, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;	
+    font-size: 11px;
+    margin:0;
+    padding:0;
+}
+
+table{
+    border-spacing:0px;
+    border:none;
+}
+
+div{
+    display:block;
+}
+
+img{
+    border:none;
+}
+
+/**/
+/* load fonts */
+@font-face {
+	font-family: 'Conv_segoeuil';
+	src: url('fonts/segoeuil.eot');
+	src: local('�?�'), url('fonts/segoeuil.ttf') format('truetype'), url('fonts/segoeuil.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/**/
+
+/*setting to all page */
+#main{
+    width:1174px;
+    background: #fff;
+    margin:auto;
+    padding-top:10px;
+}
+
+/* title */
+.IndexTitle{
+    float: left;
+    background: url('../img/logo.png') no-repeat;
+    padding-left: 60px;
+    color: #3A94D4;
+    font: bold 25px Trebuchet MS, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+/* sub-title*/
+.IndexTitle div{
+	font-weight: bold;
+	color: #3a94d4;	
+}
+
+/* header */
+.header{
+    display:block;
+    height:70px;
+}
+
+/* content */
+#content{
+    background: #f6f6f6;
+    border:2px solid #dedede;
+    padding:20px;
+}
+
+/* global block */
+.eqJsGlobalBlock{
+    width: 81%;
+    float: left;
+    background: #fff;
+    border: 1px solid silver;
+    margin: 0 0 20px 0; 
+}
+
+/* global block - top border */
+.eqJsGlobalBlock_borderTop{
+    background: #7BC4F8;
+    height: 6px;
+    border: none;
+}
+
+/* global block - title */
+.eqJsGlobalBlock_title{
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 8px 10px;
+    background: #F8F7F7;
+    border-bottom: 1px solid #7BC4F8;
+}
+
+/* global block - content */
+.eqJsGlobalBlock_content{
+    padding: 10px;
+    font: normal 15px Arial;
+}
+
+
+/* menu block */
+.eqJsMenuBlock{
+    width: 17%;
+    float: right;
+    background: #fff;
+    border: 1px solid silver;
+    margin: 0 0 20px 0;
+}
+
+/* menu block - top border */
+.eqJsMenuBlock_borderTop{
+    border: none;
+    height: 6px;
+    background: #1777B1;
+}
+
+/* menu block - title */
+.eqJsMenuBlock_title{
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 8px 10px;
+    background: #F8F7F7;
+    border-bottom: 1px solid #1777B1;
+}
+
+/* menu block - content */
+.eqJsMenuBlock_content{
+    padding: 10px;
+}
+
+.eqJsMenuBlock_content div {
+    margin: 5px 7px;
+}
+
+/* menu block - buttons */
+.get-query-button{
+    background : url('../img/loadButton-new.png') no-repeat center left;
+    width: 127px;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 9px 9px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.execute-sql-button{
+    float: right;
+    font: normal 18px Calibri;
+    color: #1777B1;
+    text-decoration: underline;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.get-sql-button{
+    background: url('../img/execute-new.png') no-repeat;
+    width: 127px;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 13px 9px 9px 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 7px !important;  
+}
+
+.clear-button{
+    background: url('../img/clearButton-new.png') no-repeat;
+    width: 127px;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 13px 9px 9px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.save-button{
+    background: url('../img/saveButton.png') no-repeat;
+    width: 117px;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 9px 6px 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* sql panel */
+.eqJsSQLPanel{
+    width: 25%;
+    height: 270px;
+    border: 1px solid #C4D6E5;
+    background: white;
+    float: left;
+}
+
+/* sql panel - border -top */
+.eqJsSQLPanel_borderTop{
+    background: #A8ABAD;
+    height: 6px;
+    border: none;  
+}
+
+/* sql panel - title */
+.eqJsSQLPanel_title{
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 8px 10px;
+    background: #F8F7F7;
+    border-bottom: 1px solid #A8ABAD;
+}
+
+/* sql panel - block */
+.eqjs-sql-block{
+    padding: 7px;
+    position: relative;
+    height: 226px;
+}
+
+/* sql panel - result block */
+.eqjs-sql-result{
+    height: 222px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font: normal 11px Verdana;
+}
+
+/* result panel */
+.eqJsResultPanel{
+    background: white;
+    position: relative;
+    border: 1px solid #C1D5E4;
+    width: 73%;
+    height: 270px;
+    float: right;
+}
+
+/* result panel - border top */
+.eqJsResultPanel_borderTop{
+    background: #237901;
+    height: 6px;
+    border: none;
+}
+
+/* result panel - title */
+.eqJsResultPanel_title{
+    border-bottom: 1px solid #237901;
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 8px 10px;
+    background: #F8F7F7;
+}
+
+/* result panel - content result */
+.eqJsResultPanel_result_padding{
+    padding: 10px 5px 10px 5px;
+}
+
+.eqJsResultPanel_result{
+    font: normal 15px Arial;
+    height: 220px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.eqJsResultPanel_result table{
+    font: normal 12px Calibri;
+}
+
+.eqJsResultPanel_result table td{
+    padding: 5px;
+    color: #4F4F4F;
+    font: 10px Arial;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.eqjs-result-header th{
+    background-color: #F6F6F6;
+    color: #4F4F4F;
+    height: 30px;
+    font: bold 11px Arial !important;
+    border-bottom: 1px solid #E4E4E4;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+/* content - block min height */
+.eqJsMinHeight{
+    min-height : 287px;
+    clear: both;
+}
+
+.eqJsMinHeight > div{
+    min-height: 287px;
+}
+
+/* query panel & query text */
+.eqjs-result-error{
+    color: Red;
+    font: normal 20px Calibri;
+    text-align: center;
+}
+
+.eqjs-result.loader{
+    background: url('/images/ajax-loader.gif') no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* result table style */
+.eqjs-result-header td{
+    font: bold 14px Calibri;
+    border-bottom: 1px solid silver !important;
+}
+
+/* error text */
+.error, .error div{
+    color: Red;
+    font: normal 20px Calibri;
+}
+
+#QueryPanel{
+    height: 220px;
+    overflow-y: auto;
+}

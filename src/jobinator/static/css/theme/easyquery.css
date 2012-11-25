@@ -1,0 +1,268 @@
+.eqjs-qp-addrow, .eqjs-qc-addrow{
+    border-top: 1px solid silver;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.eqjs-qp-addrow a, .eqjs-qc-addrow a{
+    font: bold 13px Calibri;
+    color: #165E0C;
+    outline: none;
+    text-decoration: none;
+}
+
+.eqjs-qp-addrow > a:hover, .eqjs-qc-addrow > a:hover{
+    text-decoration: underline;
+}
+
+.eqjs-qp-row, .eqjs-qc-row {
+    padding: 5px 0;
+}
+
+.eqjs-qp-row:hover, .eqjs-qc-row:hover{
+    background: #E8F3FF;
+}
+
+.eqjs-qp-row-predicate {
+    margin-left:0px;
+}
+
+.eqjs-qp-conditions {
+    margin-left:30px;
+}
+
+.eqjs-qp-condelement, .eqjs-qc-colelement {
+    font: normal 15px Calibri;
+    display : inline-block;
+    margin-right: 8px;
+}
+
+.eqjs-qp-predelement {
+    font: normal 15px Calibri;
+    display : inline-block;
+    clear: both;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+.eqjs-qp-condelement > a, .eqjs-qp-predelement > a, .eqjs-qc-colelement > a {
+    color: #4676AE;
+    text-decoration: none;
+    font: normal 15px Calibri;
+}
+
+.eqjs-qp-condelement > a:hover, .eqjs-qp-predelement > a:hover, .eqjs-qc-colelement > a:hover {
+    text-decoration: underline;
+}
+
+
+.eqjs-qp-valueelement a{
+    max-width: 167px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.eqjs-qp-disabled span, .eqjs-qc-disabled span  {
+    color: #9E9E9E;
+    font: 15px Calibri;
+}
+
+.eqjs-qp-error {
+    color: red;
+    font-weight:bold;
+}
+
+.eqjs-qp-ve-loader {
+    background: url('../../img/ve-loader.gif') no-repeat;
+    width:16px;
+    height:11px;
+}
+
+/* eq menu */
+/*
+.eqjs-menu-block{
+    display: none;
+    position:absolute;
+    z-index: 100000;
+    top:0px;
+    left:0px; 
+}
+
+.eqjs-menu-block ul{
+    background: #F2F2F2;
+    border: 1px solid silver;
+    padding: 5px 0 !important;
+    moz-box-shadow: 4px 4px 5px -3px #666;
+    -webkit-box-shadow: 4px 4px 5px -3px #666;
+    box-shadow: 4px 4px 5px -3px #666;
+}
+
+.eqjs-menu-block li{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    z-index: 1;
+    width:200px;
+}
+
+.eqjs-menu-block li a{
+    color: #666;
+    font: normal 12px Tahoma, Arial, Verdana;
+    display: block;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+.eqjs-menu-block li a:hover{
+    color: #333;
+    padding: 4px 20px;
+    background: #C8C7C7;
+    text-decoration: underline;
+    border-top: 1px solid #898787;
+    border-bottom: 1px solid #898787;
+}
+
+.eqjs-menu-block ul li ul {
+    display: none;
+    position:absolute;
+    top:0px;
+    left:200px;
+}
+*/
+
+/* dialog */
+.ui-dialog{
+    overflow: visible !important;    
+}
+
+.eqjs-qp-ve-subquery{
+    overflow: visible !important;
+}
+
+/* multi-select-menu */
+.eqjs-menu-block{
+    position: absolute;
+    z-index: 100;
+    padding: 2px;
+    top: 0;
+    left: 0;
+}
+
+.eqjs-menu-block-button{
+    margin: 4px;
+    padding: 1px 10px;
+}
+
+.eqjs-menu-block-header{
+    margin: 0 0 5px 0;
+}
+
+.eqjs-menu-block label {
+    display: block;
+    padding: 4px 10px;
+}
+
+.eqjs-menu-block li{
+    display: block;
+    font: normal 12px Arial;
+}
+
+.eqjs-menu-block ul li input{
+    margin: 0 10px;
+}
+
+.eqjs-menu-block label input{
+    margin: 0 10px;
+}
+
+.eqjs-menu-block ul li{
+    position:relative;
+    z-index: 1;
+    width:200px;
+}
+
+.eqjs-menu-block a.ui-state-hover{
+    padding: 3px 8px;
+}
+
+.eqjs-menu-block label.ui-state-hover{
+    padding: 3px 9px;
+}
+
+.eqjs-menu-block ul li a{
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: #666;
+}
+        
+.eqjs-menu-block ul li ul {
+    display: none;
+    position:absolute;
+    top:0px;
+    left:200px;
+    padding: 2px;
+}
+
+.korzh-dd-menu-state-checkbox{
+    background: url('../../img/state-checkbox.png') no-repeat;
+    width: 13px;
+    border: none;
+    padding: 1px 0 0 0;
+    outline: none;
+    cursor: default;
+    text-indent: -30000px;
+}
+
+
+.eqjs-qp-condition-buttonsBlock{
+    display:none;
+    float: right;
+    width: 165px;
+}
+
+.eqjs-qc-column-buttonsBlock{
+    display:none;
+    float: right;
+    width: 35px;
+}
+
+.eqjs-qp-condition-button, .eqjs-qc-column-button {
+    float: left;
+    margin: -1px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.eqjs-qp-condition-button-hidden, .eqjs-qc-column-button-hidden{
+    width: 0px;
+    margin-right: 30px !important;
+}
+    
+.eqjs-qp-condition-button-active, .eqjs-qc-column-button-active{
+    opacity: 1;
+}
+.eqjs-qp-condition-button-enable{
+    background: url('../../img/condbtn-disabled.png') no-repeat;
+}
+
+.eqjs-qp-condition-button-enable.enabled{
+    background: url('../../img/condbtn-enabled.png') no-repeat;
+}
+
+.eqjs-qp-condition-button-delete, .eqjs-qc-column-button-delete{
+    background: url('../../img/condbtn-delete.png') no-repeat;
+}
+
+.eqjs-qp-condition-button-addPredicate{
+    background: url('../../img/condbtn-addpredicate.png') no-repeat;
+}
+
+.eqjs-qp-condition-button-addCondition{
+    background: url('../../img/condbtn-addcondition.png') no-repeat;}
+
+.ui-state-highlight { 
+    height: 1.5em; 
+    line-height: 1.2em; 
+}

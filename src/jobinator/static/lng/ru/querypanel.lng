@@ -1,0 +1,258 @@
+﻿{
+	"texts": {
+		"Locale": "ru",
+        "ButtonApply": "Применить",
+        "ButtonCancel": "Отменить",
+        "ButtonOK": "OK",
+        "ButtonEnable": "Включить / выключить",
+        "ButtonDelete": "Удалить",
+        "ButtonAddCondition": "Добавить условие",
+        "ButtonAddPredicate": "Добавить предикат",
+        "CmdClickToAddCondition": "[Добавить новое условие]",
+        "ErrIncorrectPredicateTitleFormat": "Некорректный формат заголовка предиката",
+        "False": "Нет",
+        "FirstDayOfMonth": "Первый день месяца",
+        "FirstDayOfYear": "Первый день года",
+        "HourStart": "Начало этого часа",
+        "LinkTypeAll": "все",
+        "LinkTypeAny": "что-нибудь",
+        "LinkTypeNone": "ничего",
+        "LinkTypeNotAll": "не все",
+        "Midnight": "Полночь",
+        "MsgApplySelection": "[Применить выбор]",
+        "MsgAs": "как",
+        "MsgEmptyList": "(пустой список)",
+        "MsgEmptyListValue": "[выберите значение]",
+        "MsgEmptyScalarValue": "[введите значение]",
+        "MsgSubQueryValue": "[редактировать подзапрос]",
+        "MsgOf": "из",
+        "Noon": "Полдень",
+        "Now": "Сейчас",
+        "PredicateTitle": "применимо {lt} из следующего",
+        "RootPredicateTitle": "Выберите записи, для которых применимо {lt} из следующего",
+        "SubQueryDialogTitle": "Редактирование подзапроса",
+        "Today": "Сегодня",
+        "Tomorrow": "Завтра",
+        "True": "Да",
+        "Yesterday": "Вчера",
+
+        "CmdAscending": "Ascending",
+        "CmdClickToAddColumn": "[Добавить колонку]",
+        "CmdDeleteColumn": "Delete column",
+        "CmdDeleteSorting": "Delete sorting",
+        "CmdDescending": "Descending",
+        "CmdGroupSort": "Sorting",
+        "CmdNotSorted": "Not sorted",
+        "ColTypeAggrFunc": "Aggregate function",
+        "ColTypeCompound": "Calculated",
+        "ColTypeGroup": "Column type",
+        "ColTypeSimple": "Simple column",
+        "HeaderExpression": "Expression",
+        "HeaderSorting": "Sorting",
+        "HeaderTitle": "Title",
+        "SortHeaderColumn": "Column",
+        "SortHeaderSorting": "Sorting",
+        "StrAddColumns": "Add columns",
+
+
+        "Operators": {
+            "Equal": {
+                "caption": "равно",
+                "displayFormat": "{expr1} [[равно]] {expr2}"
+            },
+            "NotEqual": {
+                "caption": "не равно",
+                "displayFormat": "{expr1} [[не равно]] {expr2}"
+            },
+            "LessThan": {
+                "caption": "меньше чем",
+                "displayFormat": "{expr1} [[меньше чем]] {expr2}"
+            },
+            "LessOrEqual": {
+                "caption": "меньше или равно",
+                "displayFormat": "{expr1} [[меньше или равно]] {expr2}"
+            },
+            "GreaterThan": {
+                "caption": "больше чем",
+                "displayFormat": "{expr1} [[больше чем]] {expr2}"
+            },
+            "GreaterOrEqual": {
+                "caption": "больше или равно",
+                "displayFormat": "{expr1} [[больше или равно]] {expr2}"
+            },
+            "IsNull": {
+                "caption": "пусто",
+                "displayFormat": "{expr1} [[пусто]]"
+            },
+            "NotNull": {
+                "caption": "не пусто",
+                "displayFormat": "{expr1} [[не пусто]]"
+            },
+            "InList": {
+                "caption": "в списке",
+                "displayFormat": "{expr1} [[в списке]] {expr2}"
+            },
+            "StartsWith": {
+                "caption": "начинается с",
+                "displayFormat": "{expr1} [[начинается с]] {expr2}"
+            },
+            "NotStartsWith": {
+                "caption": "не начинается с",
+                "displayFormat": "{expr1} [[не начинается с]] {expr2}"
+            },
+            "Contains": {
+                "caption": "содержит",
+                "displayFormat": "{expr1} [[содержит]] {expr2}"
+            },
+            "NotContains": {
+                "caption": "не содержит",
+                "displayFormat": "{expr1} [[не содержит]] {expr2}"
+            },
+            "Between": {
+                "caption": "между",
+                "displayFormat": "{expr1} [[между]] {expr2} и {expr3}"
+            },
+            "NotBetween": {
+                "caption": "не между",
+                "displayFormat": "{expr1} [[не между]] {expr2} и {expr3}"
+            },
+            "InSubQuery": {
+                "caption": "в выбранном",
+                "displayFormat": "{expr1} [[в выбранном]] {expr2}"
+            },
+            "DateEqualSpecial": {
+                "caption": "равно (спец. дата)",
+                "displayFormat": "{expr1} [[равно]] {expr2}"
+            },
+            "DateEqualPrecise": {
+                "caption": "равно (конкретная дата)",
+                "displayFormat": "{expr1} [[равно]] {expr2}"
+            },
+            "DateNotEqualSpecial": {
+                "caption": "не равно (спец. дата)",
+                "displayFormat": "{expr1} [[не равно]] {expr2}"
+            },
+            "DateNotEqualPrecise": {
+                "caption": "не равно (конкретная дата)",
+                "displayFormat": "{expr1} [[равно]] {expr2}"
+            },
+            "DateBeforeSpecial": {
+                "caption": "раньше чем (спец. дата)",
+                "displayFormat": "{expr1} [[раньше чем]] {expr2}"
+            },
+            "DateBeforePrecise": {
+                "caption": "раньше чем (конкретная дата)",
+                "displayFormat": "{expr1} [[раньше чем]] {expr2}"
+            },
+            "DateAfterSpecial": {
+                "caption": "позже чем (спец. дата)",
+                "displayFormat": "{expr1} [[позже чем]] {expr2}"
+            },
+            "DateAfterPrecise": {
+                "caption": "позже чем (конкретная дата)",
+                "displayFormat": "{expr1} [[позже чем]] {expr2}"
+            },
+            "DatePeriodPrecise": {
+                "caption": "между",
+                "displayFormat": "{expr1} [[между]] {expr2} и {expr3}"
+            },
+            "TimeBeforeSpecial": {
+                "caption": "раньше чем (спец. время)",
+                "displayFormat": "{expr1} [[раньше чем]] {expr2}"
+            },
+            "TimeBeforePrecise": {
+                "caption": "раньше чем (конкретное время)",
+                "displayFormat": "{expr1} [[раньше чем]] {expr2}"
+            },
+            "TimeAfterSpecial": {
+                "caption": "позже чем (спец. время)",
+                "displayFormat": "{expr1} [[позже чем]] {expr2}"
+            },
+            "TimeAfterPrecise": {
+                "caption": "позже чем (конкретное время)",
+                "displayFormat": "{expr1} [[позже чем]] {expr2}"
+            },
+            "TimePeriodPrecise": {
+                "caption": "между",
+                "displayFormat": "{expr1} [[между]] {expr2} и {expr3}"
+            },
+            "MaximumOfAttr": {
+                "caption": "максимум из",
+                "displayFormat": "{expr1} [[равно максимуму из]] {expr2}"
+            },
+            "GreaterThanAvg": {
+                "caption": "больше среднего",
+                "displayFormat": "{expr1} [[больше, чем среднее из]] {expr2}"
+            }
+        },
+
+        "Entities": {
+            "Customer": "Клиент",
+			"Order": "Заказ",
+			"Product": "Продукт",
+			"Employee": "Сотрудник"
+        },
+
+        "Attributes": {
+            "13": "Название компании",
+            "14": "Имя контакта",
+			"15": "Обращение",
+			"11": "Адрес компании",
+			"16": "Страна",
+			"12": "Город",
+			"18": "Факс",
+			"19": "Телефон",
+			"20": "Индекс",
+			"21": "Регион",
+
+			"Orders.CustomerID": "Клиент",
+			"41": "Дата",
+			"40": "Фрахт",
+			"VEA_3": "Общая сумма",
+			"43": "Оплачено",
+			"44": "Требуемая дата",
+			"49": "Дата отгрузки",
+			"47": "Страна отгрузки",
+			"46": "Город отгрузки",
+			"45": "Адрес отгрузки",
+			"48": "Имя получателя",
+			"50": "Индекс отгрузки",
+			"51": "Регион отгрузки",
+			"52": "Отгрузка через",
+			"39": "Клиент",
+			"42": "Заказ",
+
+			"58": "Название",
+			"62": "Цена единицы",
+			"55": "Дата последнего заказа",
+			"63": "Единиц на складе",
+			"54": "Прекращен",
+			"56": "В продаже",
+			"59": "Количество в единице",
+			"60": "Уровень повторных заказов",
+			"61": "Идентификатор поставщика",
+			"64": "Единиц в заказе",
+			"53": "Категория",
+			"57": "Продукт",
+
+			"VEA_1": "Полное имя",
+			"31": "Фамилия",
+			"28": "Имя",
+			"22": "Адрес",
+			"36": "Обращение",
+			"29": "Дата найма",
+			"23": "Дата рождения",
+			"37": "Вежливое обращение",
+			"25": "Страна",
+			"24": "Город",
+			"34": "Регион",
+			"33": "Индекс",
+			"30": "Дом. телефон",
+			"27": "Расширение",
+			"32": "Заметки",
+			"35": "Отчитывается",
+			"26": "Сотрудник"
+        }
+
+	} 
+}

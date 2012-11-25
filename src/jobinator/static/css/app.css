@@ -1,0 +1,43 @@
+/* jobinator styles */
+
+body {background: #fff;}
+
+div.container {	width: 320px;
+				padding: 0 10px;
+				border: 1px solid silver;
+				border-radius: 5px;
+				background: #ebebeb;
+
+				background:-moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%); /* FF3.6+ */
+				background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9)); /* Chrome,Safari4+ */
+				background:-webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%); /* Chrome10+,Safari5.1+ */
+				background:-o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%); /* Opera11.10+ */
+				background:-ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%); /* IE10+ */
+				background:linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+				-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+			  }
+
+		div.container h1 {margin: 10px auto; display: block; border: none; width: 100%; text-align: center; font-family: Arial, Helvetica, sans-serif; }
+		div.container a {color: #dc291e; margin-left: 26px;}
+		div.container a:hover {color: #ff0000;}
+		div.container hr {border-top-color: #d7d7d7;}
+
+.navbar-inner .container {background: transparent; border: none;}
+.navbar-inner {  }
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container { };
+				
+
+li.field {border: none; width: 220px; list-style: none;}
+li.buttons {display: ; }
+
+footer {border: none; width: 150px; margin: 0 auto; color: #aaa; }
+.nav {
+    max-width: 400px;
+}
+
+div.container.flash {
+  border:0px;
+}
