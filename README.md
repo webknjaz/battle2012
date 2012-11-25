@@ -10,11 +10,11 @@ battle2012
 Jobinator Team
 ==============
 
-# Anatoly Bubenkov
-# Slava Levit
-# Svyatoslav Sydorenko
-# Valery Ischenko
-# Yaroslav  Dashivets
+# Anatoly Bubenkov <bubenkoff@gmail.com>
+# Slava Levit <levit.slava@gmail.com>
+# Svyatoslav Sydorenko <svyatoslav@sydorenko.org.ua>
+# Valery Ischenko <tasman.main@gmail.com>
+# Yaroslav  Dashivets <yaroslav.dashivets@gmail.com>
 
 URL
 ===
